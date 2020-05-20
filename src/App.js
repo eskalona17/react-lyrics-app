@@ -1,10 +1,12 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Formulario from "./components/Formulario";
 
 function App() {
   return (
-  <h1>Hola mundo</h1>
-  );
+    <>
+      <Formulario />
+    </>
+  )
 }
 
 export default App;
